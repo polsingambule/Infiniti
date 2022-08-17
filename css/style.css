@@ -7,6 +7,42 @@ body{
  background: #fff !important;
     
 }
+.top-bar .top-bar-col {
+    display: flex;
+    justify-content: space-between;
+    padding:8px 25px;
+    background: #563880;
+}
+.top-bar-col-1 a{
+    padding: 0px;
+    color: #fff;
+    text-decoration: none;
+}
+.top-bar-col-1 i{
+    padding: 0px 5px;
+}
+.top-bar-col-1 span{
+    padding: 0px 6px;
+    color: #fff;
+}
+.top-bar-col-1{
+    text-align: left;
+}
+.top-bar-col-2{
+    text-align: right;
+}
+.top-bar-col-2 select{
+    background:#563880;
+    outline: none;
+    color: #fff;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+.top-bar-col-2 a{
+    padding: 0px 10px;
+    color: #fff;
+    text-decoration: none;
+}
 /*************************************************************/
 nav.navbar.navbar-expand-lg {
     background: #fff; 
@@ -107,7 +143,21 @@ section#model-showroom-wrapper h1 {
     transition:1s;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+.slick-prev{
+    background:#563880;
+    border-radius: 50px;
+}
+.slick-next{
+     background:#563880;
+     border-radius: 50px;
+}
 
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover{
+    background:#563880 !important;
+}
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover{
+   background:#563880 !important;
+}
 /************************************************************/
 .welcome-inner-content .welcome-txt {
     background: #f9f9f9;
